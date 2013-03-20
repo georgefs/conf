@@ -12,7 +12,6 @@ hi IndentGuidesOdd  ctermbg=white
 hi IndentGuidesEven ctermbg=lightgrey
 
 set background=dark
-"set ai
 
 
 "height ligth cusor
@@ -24,8 +23,8 @@ highlight CursorLine cterm=none ctermbg=233
 highlight CursorColumn cterm=none ctermbg=233
 
 "move
-nmap [1;5A OA
-nmap [1;5B OB
+nmap [1;5A OB
+nmap [1;5B OA
 
 
 ""easymotion
