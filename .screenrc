@@ -1,0 +1,9 @@
+
+hardstatus alwayslastline "%{=b}%{bw} %{ck} %-Lw%{gw}%n%f* %t%? (%u)%? %{-}%+Lw %{bw}"
+
+bindkey [6;5~ next
+bindkey [5;5~ prev
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
+
+
+
