@@ -23,8 +23,8 @@ highlight CursorLine cterm=none ctermbg=233
 highlight CursorColumn cterm=none ctermbg=233
 
 "move
-nmap [1;5A OB
-nmap [1;5B OA
+nmap [1;2A OB
+nmap [1;2B OA
 
 
 ""easymotion
