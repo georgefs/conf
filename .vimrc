@@ -14,7 +14,6 @@ hi IndentGuidesEven ctermbg=lightgrey
 set background=dark
 "set ai
 
-"set rnu
 
 "height ligth cusor
 set t_Co=256
@@ -24,7 +23,9 @@ set cursorcolumn
 highlight CursorLine cterm=none ctermbg=233
 highlight CursorColumn cterm=none ctermbg=233
 
-"highlight Search term=reverse ctermbg=4 ctermfg=7
+"move
+nmap [1;5A OA
+nmap [1;5B OB
 
 
 ""easymotion
