@@ -19,13 +19,15 @@ set t_Co=256
 set cursorline
 set cursorcolumn
 
-highlight CursorLine cterm=none ctermbg=233
-highlight CursorColumn cterm=none ctermbg=233
+highlight CursorLine cterm=none ctermbg=236
+highlight CursorColumn cterm=none ctermbg=236
 
 "move
-nmap [1;2A OB
-nmap [1;2B OA
+nmap [1;2A OA
+nmap [1;2B OB
 
+nmap OA gOA
+nmap OB gOB
 
 ""easymotion
 let g:EasyMotion_leader_key = '<Leader>'
