@@ -1,5 +1,4 @@
 
-
 filetype plugin indent on     " required! 
 filetype plugin on
 
@@ -67,7 +66,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'georgefs/vim-easymotion'
 Bundle 'georgefs/vim-surround'
 Bundle 'georgefs/snipmate.vim'
-
+Bundle 'georgefs/vim-template.git'
 
 
 ""ubuntu virtual mode ctrl+c 複製到系統剪貼簿 gtk only
