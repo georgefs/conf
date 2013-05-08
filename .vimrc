@@ -1,5 +1,4 @@
 
-
 filetype plugin indent on     " required! 
 filetype plugin on
 
@@ -106,10 +105,6 @@ endfunction
 augroup DimInactiveWindows
   au!
   au WinEnter * call s:DimInactiveWindows()
-  au WinEnter * set cursorline
-  au WinEnter * set cursorcolumn
-  au WinLeave * set nocursorline
-  au WinLeave * set nocursorcolumn
 augroup END
 
 
