@@ -118,4 +118,4 @@ augroup END
 set wildmenu
 set wildmode=longest,list
 
-
+set noswapfile
