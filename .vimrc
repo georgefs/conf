@@ -25,8 +25,8 @@ nmap OA gOA
 nmap OB gOB
 
 ""easymotion
-let g:EasyMotion_leader_key = '<Leader>'
-nmap <Space> H<Leader>f
+let g:EasyMotion_leader_key = '\'
+nmap <Space> \f
 
 ""tab...
 set tabstop=4
@@ -41,8 +41,8 @@ set smarttab
 
 "vundle
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 Bundle 'drmingdrmer/xptemplate'
 Bundle 'L9'
