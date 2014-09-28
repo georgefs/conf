@@ -1,4 +1,4 @@
-
+"
 filetype plugin indent on     " required! 
 filetype plugin on
 
@@ -23,6 +23,7 @@ nmap <S-k> OA
 
 nmap OA gOA
 nmap OB gOB
+
 
 ""easymotion
 let g:EasyMotion_leader_key = '\'
@@ -58,7 +59,7 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'Indent-Guides'
 Bundle 'lazywei/vim-doc-tw.git'
 Bundle 'airblade/vim-gitgutter'
-Bundle 'georgefs/vim-easymotion'
+Bundle 'Lokaltog/vim-easymotion'
 Bundle 'georgefs/vim-surround'
 Bundle 'georgefs/snipmate.vim'
 Bundle 'georgefs/vim-template.git'
@@ -67,6 +68,9 @@ Bundle 'zef/vim-cycle.git'
 Bundle 'https://github.com/terryma/vim-multiple-cursors.git'
 Bundle 'LargeFile'
 Bundle 'goldfeld/vim-seek'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 
 
@@ -119,3 +123,4 @@ set wildmenu
 set wildmode=longest,list
 
 set noswapfile
+
